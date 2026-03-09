@@ -24,6 +24,17 @@ def sum_list(numbers: list) -> int:
         output += numbers[index]
         index += 1
     return output
+    
+'''
+ def sum_list(numbers: list) -> int:
+    output = 0 
+    idx = 0 
+    while idx < len(numbers):
+        curr_num = numbers[idx]
+        output = output + curr_num
+        idx += 1
+    return output          
+'''
 
     
 
@@ -55,6 +66,16 @@ def count_letter(s: str, letter: str) -> int:
             count += 1
     return count
 
+'''
+def count_letters(s: str, letters: str)-> int:
+    count = 0 
+    idx = 0
+    while idx < len(s):
+        curr_letter = s[idx]
+        if curr_letter == letter
+        count += 1
+    return count
+'''
 
 
 
@@ -85,7 +106,18 @@ def is_palindrome(s: str) -> bool:
         if output == init_output:
             return True
     return False
-    
+
+
+    '''
+    def is_palindrome(s: str) -> bool:
+        reverse_s = ""
+        for char in s:
+            reverse_s = char + reverse_s
+            if rvers_s == s:
+                return True
+            else:
+                return False
+    '''
 
     
    
